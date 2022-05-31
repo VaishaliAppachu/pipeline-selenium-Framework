@@ -4,7 +4,7 @@ public class WithParameter
 {
 	public void withParameter()
 	{
-		String brow = System.getProperty("browser");
-		System.out.println(brow);
+		String browser = System.getProperty("browser");
+		System.out.println(browser);
 	}
 }
