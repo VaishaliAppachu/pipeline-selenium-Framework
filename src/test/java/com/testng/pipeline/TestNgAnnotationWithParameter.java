@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestNgBasicConfAnnotationTest {
+public class TestNgAnnotationWithParameter {
 
 //	@Test
 //	public void test1Test()
@@ -23,7 +23,7 @@ public class TestNgBasicConfAnnotationTest {
 		public void test2Test()
 		{
 		    String b = System.getProperty("browser");
-		    Reporter.log(b);
+		    Reporter.log(b,true);
 			Reporter.log("test2",true);
 		}
 		
